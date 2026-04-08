@@ -40,9 +40,10 @@ Match score visualization
 Skill comparison charts
 # 🏗️ Architecture
 Resume / JD Upload
-        ↓
 Text Extraction & Cleaning
+
         ↓
+        
 Chunking
         ↓
 Embeddings (Sentence Transformers)
