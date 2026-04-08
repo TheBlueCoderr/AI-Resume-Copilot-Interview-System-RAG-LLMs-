@@ -39,22 +39,24 @@ Uses LLM + retrieved context for accurate answers
 Match score visualization
 Skill comparison charts
 # 🏗️ Architecture
-Resume / JD Upload
-Text Extraction & Cleaning
 
-        ↓
-        
-Chunking
-        ↓
-Embeddings (Sentence Transformers)
-        ↓
-FAISS Vector Store
-        ↓
-Query → Retrieval (Top-K Chunks)
-        ↓
-LLM (Groq API)
-        ↓
-Answer / Analysis
+```text
+    Resume / JD Upload
+            ↓
+    Text Extraction & Cleaning
+            ↓
+         Chunking
+            ↓
+    Embeddings (Sentence Transformers)
+            ↓
+        FAISS Vector Store
+            ↓
+    Query → Retrieval (Top-K Chunks)
+            ↓
+        LLM (Groq API)
+            ↓
+        Answer / Analysis
+```
  # 🛠️ Tech Stack
 Frontend: Streamlit
 Backend: Python
