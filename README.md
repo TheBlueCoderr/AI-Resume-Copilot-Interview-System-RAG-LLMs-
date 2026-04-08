@@ -73,7 +73,7 @@ venv\Scripts\activate  # Windows
 ## 📸 Screenshots
 
 ### Resume Upload
-![Upload UI - 1](Images/upload1.png)
+![Upload UI - 1](AI_Resume_Copilot/Images/upload1.png)
 
 ![Upload UI - 2](AI_Resume_Copilot/Images/upload2.png)
 
